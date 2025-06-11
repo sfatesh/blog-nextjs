@@ -9,7 +9,7 @@ export default async function PostPage({
     const {id} =  params
     console.log('PostPage',params,id);
     
-    const post:any = postsData.find((item:any)=>item.id == id);
+    const post:any = postsData.find((item:{id:number,title:string,description:string,date:string})=>item.id == Number(id));
     return (
         <div>
             <h1>Post</h1>

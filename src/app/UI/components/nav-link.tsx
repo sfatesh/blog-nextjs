@@ -1,12 +1,11 @@
 // components/Navbar.tsx
 'use client'
 
-import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
-import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
-import { Bars3Icon, BellIcon, DocumentDuplicateIcon, EnvelopeIcon, HomeIcon, LinkIcon, UserGroupIcon, XMarkIcon } from '@heroicons/react/24/outline'
-import classNames from 'classnames'
+
+
+import { DocumentDuplicateIcon, EnvelopeIcon, HomeIcon,  UserGroupIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
-import { usePathname, useSearchParams } from 'next/navigation'
+import { usePathname } from 'next/navigation'
 import clsx from 'clsx'
 
 
